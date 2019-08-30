@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>Project For Tumo Vahe AND Lucie 2019</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="author" content="Davit Gyulnazaryan">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="sound-control">
+    <i class="fa fa-volume-up fa-3x"></i>
+  </div>
+
+  <div class="floating-drone">
+    <img src="./aliens.png" alt="" class="drone-img">
+    <div class="speech-bubble" id="bubble"></div>
+  </div>
+
+  <div class="earth">
+    <div class="earth-shadow"></div>
+  </div>
+  <div class="moon"></div>
+
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+
+  <div id="p5Container"></div>
+
+  <script>
+    let trainingVersion = false; 
+  </script>
+
+  <p id=" nn_gene"></p>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/mobile-detect.js/0.4.1/mobile-detect.min.js"></script>
+  <script src="./lib/convnetjs/convnet.js"></script>
+  <script src="./lib/convnetjs/ga.js"></script>
+
+  <script type="text/javascript" src="./lib/p5.min.js"></script>
+  <script type="text/javascript" src="./lib/p5.dom.min.js"></script>
+  <script type="text/javascript" src="./lib/p5.sound.min.js"></script>
+  <script type="text/javascript" src="functions.js"></script>
+  <script type="text/javascript" src="settings.js"></script>
+
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
